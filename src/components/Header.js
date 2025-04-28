@@ -18,7 +18,7 @@ const Header = () => {
             <Container sx={{ px: 2 }}>
                 <Toolbar disableGutters sx={{ justifyContent: "space-between" }}>
                     <Box display="flex" alignItems="center">
-                        <img src="/Vector.png" alt="Logo" width="30" height="37" />
+                        <img src="/Vector.png" alt="Logo" width="30" height="35" />
                     </Box>
 
                     <Box sx={{ display: { xs: "none", sm: "flex" }, gap: 3 }}>
