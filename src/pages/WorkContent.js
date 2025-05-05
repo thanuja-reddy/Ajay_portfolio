@@ -55,7 +55,7 @@ const WorkContent = () => {
                     </span>
                 </Typography>
                 <Typography variant="subtitle1" color="textSecondary" fontSize="1.3rem" mt={2}>
-                    A product designer with 3+ YOE building products across Edutech, Social Media, Healthcare, AI and Aviation. Expert in design systems and accessibility-focused design.
+                    A product designer with 4 YOE building products across Edutech, Social Media, Healthcare, AI and Aviation. Expert in design systems and accessibility-focused design.
                 </Typography>
             </Box>
 

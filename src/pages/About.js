@@ -25,7 +25,7 @@ const experiences = [
         B2B projects : Worked on a B2B project called QuID Cash, a fintech platform specializing in anchor-led supply chain financing solutions. The platform enables businesses to secure loans with zero percent interest, supporting seamless cash flow management within the supply chain ecosystem.`    },
     {
         company: "Zoho Corporation",
-        time: "Sep 2021 – Dec 2021",
+        time: "Sep 2021 – Feb 2021",
         location: "Chennai, India",
         description: `I enhanced Aaratai app by streamlining file-sharing, optimizing the status bar, implementing pinned messages, and improving search functionality for a better user experience.`,
     },
