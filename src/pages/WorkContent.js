@@ -62,7 +62,23 @@ const WorkContent = () => {
             <Grid container spacing={4}>
                 {projects.map((project, index) => (
                     <Grid item xs={12} sm={6} key={index}>
-                        <Card sx={{ borderRadius: 3, boxShadow: 3 }}>
+                        <Card
+                            component="a"
+                            href={project.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            sx={{
+                                borderRadius: 3,
+                                boxShadow: 3,
+                                textDecoration: 'none',
+                                color: 'inherit',
+                                transition: 'transform 0.2s',
+                                '&:hover': {
+                                    transform: 'scale(1.02)',
+                                    cursor: 'pointer'
+                                }
+                            }}
+                        >
                             <CardMedia component="img" height="320" image={project.image} alt={project.title} />
                             <CardContent>
                                 <Box display="flex" gap={1} mb={1}>
