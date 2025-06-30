@@ -51,7 +51,7 @@ const Header = () => {
                             <ListItem button component={Link} to="/about" onClick={handleDrawerToggle}>
                                 <ListItemText primary="About" />
                             </ListItem>
-                            <ListItem button component={Link} to="https://drive.google.com/file/d/1ywHUWy7kPMw7c27Gy1IYs1JRam7mQgOf/view?usp=sharing" target="_blank" onClick={handleDrawerToggle}>
+                            <ListItem button component={Link} to="https://drive.google.com/file/d/1mAbMzSISn4Pe3Ng4NCTNoxuQ2H5Z2vR7/view?usp=drivesdk" target="_blank" onClick={handleDrawerToggle}>
                                 <ListItemText primary="Resume" />
                             </ListItem>
                             <ListItem button component={Link} to="https://www.linkedin.com/in/ajaymdesign/" target="_blank" onClick={handleDrawerToggle}>
