@@ -28,7 +28,7 @@ const Header = () => {
                         <Link to="/about" style={{ textDecoration: "none", color: "inherit" }}>
                             <Typography variant="body1" sx={{ textDecoration: "underline", fontWeight: location.pathname === "/about" ? "bold" : "normal" }}>About</Typography>
                         </Link>
-                        <Link to="https://drive.google.com/file/d/1ywHUWy7kPMw7c27Gy1IYs1JRam7mQgOf/view?usp=sharing" target="_blank" style={{ textDecoration: "none", color: "inherit" }}>
+                        <Link to="https://drive.google.com/file/d/1mAbMzSISn4Pe3Ng4NCTNoxuQ2H5Z2vR7/view?usp=drivesdk" target="_blank" style={{ textDecoration: "none", color: "inherit" }}>
                             <Typography variant="body1" sx={{ cursor: "pointer", textDecoration: "underline" }}>Resume</Typography>
                         </Link>
                         <Link to="https://www.linkedin.com/in/ajaymdesign/" target="_blank" style={{ textDecoration: "none", color: "inherit" }}>
