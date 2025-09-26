@@ -54,8 +54,8 @@ const WorkContent = () => {
                         Hi, I’m Ajay
                     </span>
                 </Typography>
-                <Typography variant="subtitle1" color="textSecondary" fontSize="1.3rem" mt={2}>
-                    I design bold, human-centered products that turn complex ideas into intuitive, inclusive experiences people love—smart, accessible, and simple—across EdTech, Social, Healthcare, AI, and Aviation.
+                <Typography variant="subtitle1" color="textSecondary" fontSize="1.4rem" mt={2}>
+                    I design bold, human-centered products that transform complex ideas into intuitive and inclusive experiences people love smart, accessible, and simple across EdTech, Social, Healthcare, AI, and Fintech for both B2B and B2C products.
                 </Typography>
             </Box>
 
