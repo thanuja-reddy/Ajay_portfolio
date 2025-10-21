@@ -35,7 +35,7 @@ const Footer = () => {
                         </a>
                     </Typography>
                     <Typography variant="body2">
-                        <a href="https://drive.google.com/file/d/13IXlLWA7FZ8sR9d9v_WcU-wEWzjm1u71/view?usp=sharing" target="_blank" style={{ color: "#90caf9", textDecoration: "none" }}>
+                        <a href="https://drive.google.com/file/d/1T1dM1mYN8CoeQ_OiGk7JXn3Dn9XDFgsY/view?usp=drive_link" target="_blank" style={{ color: "#90caf9", textDecoration: "none" }}>
                             <DescriptionIcon sx={{ fontSize: 13 }} /> Resume
                         </a>
                     </Typography>

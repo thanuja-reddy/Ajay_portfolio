@@ -28,7 +28,7 @@ const Header = () => {
                         <Link to="/about" style={{ textDecoration: "none", color: "inherit" }}>
                             <Typography variant="body1" sx={{ textDecoration: "underline", fontWeight: location.pathname === "/about" ? "bold" : "normal" }}>About</Typography>
                         </Link>
-                        <Link to="https://drive.google.com/file/d/13IXlLWA7FZ8sR9d9v_WcU-wEWzjm1u71/view?usp=sharing" target="_blank" style={{ textDecoration: "none", color: "inherit" }}>
+                        <Link to="https://drive.google.com/file/d/1T1dM1mYN8CoeQ_OiGk7JXn3Dn9XDFgsY/view?usp=drive_link" target="_blank" style={{ textDecoration: "none", color: "inherit" }}>
                             <Typography variant="body1" sx={{ cursor: "pointer", textDecoration: "underline" }}>Resume</Typography>
                         </Link>
                         <Link to="https://www.linkedin.com/in/ajaymdesign/" target="_blank" style={{ textDecoration: "none", color: "inherit" }}>
@@ -51,7 +51,7 @@ const Header = () => {
                             <ListItem button component={Link} to="/about" onClick={handleDrawerToggle}>
                                 <ListItemText primary="About" />
                             </ListItem>
-                            <ListItem button component={Link} to="https://drive.google.com/file/d/13IXlLWA7FZ8sR9d9v_WcU-wEWzjm1u71/view?usp=sharing" target="_blank" onClick={handleDrawerToggle}>
+                            <ListItem button component={Link} to="https://drive.google.com/file/d/1T1dM1mYN8CoeQ_OiGk7JXn3Dn9XDFgsY/view?usp=drive_link" target="_blank" onClick={handleDrawerToggle}>
                                 <ListItemText primary="Resume" />
                             </ListItem>
                             <ListItem button component={Link} to="https://www.linkedin.com/in/ajaymdesign/" target="_blank" onClick={handleDrawerToggle}>
